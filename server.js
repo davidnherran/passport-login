@@ -10,7 +10,7 @@ app.get("/", (req, res) => {
 
 app.get("/login", (req, res) => {
   //mostrar formulario de login
-  res.send("hola mundo");
+  res.render("login");
 });
 
 app.post("/login", (req, res) => {
